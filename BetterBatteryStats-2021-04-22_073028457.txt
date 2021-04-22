@@ -1,0 +1,5335 @@
+/*
+===================
+General Information
+===================
+BetterBatteryStats version: 2.5-344
+Creation Date: 2021-04-22 07:30:27
+Statistic Type: Screen Off to Screen On
+Since 7 h 45 m 21 s 
+Note: 
+VERSION.RELEASE: 11
+BRAND: OnePlus
+DEVICE: OnePlus8Pro
+MANUFACTURER: OnePlus
+MODEL: IN2023
+OS.VERSION: 4.19.157-Hasty
+BOOTLOADER: unknown
+HARDWARE: qcom
+FINGERPRINT: OnePlus/instantnoodlep/instantnoodlep:11/RQ2A.210405.005/0851:userdebug/release-keys
+ID: RQ2A.210405.005
+TAGS: release-keys
+USER: android_build
+PRODUCT: OnePlus8Pro
+RADIO: 0028.5-SDX55_RMTEFS_PACK-1.319165.17.326239.5,0028.5-SDX55_RMTEFS_PACK-1.319165.17.326239.5
+Root perms: false
+SELinux Policy: 
+BATTERY_STATS permission granted: true
+BATTERY_STATS status: Success
+============
+Battery Info
+============
+Level lost [%]: Bat.: -7%(95% to 88%) [0,9%/h]
+Voltage lost [mV]: (4280-4239) [5,3%/h]
+===========
+Other Usage
+===========
+Deep Sleep (): 6 h 49 m 38 s  88,0%
+Awake (Screen Off) (): 55 m 30 s  11,9%
+Screen On (): 12 s  0,0%
+Doze Interactive Time (): 12 s  0,0%
+Doze Idle Mode Time (): 7 h 45 m 9 s  100,0%
+No or Unknown Signal ():  0,0%
+Great Signal (): 7 h 45 m 20 s  100,0%
+Screen dark (): 12 s  0,0%
+======================================================
+Wakelocks
+======================================================
+*telephony-radio* (Phone Services): 12 s  Count:1087 0,0%
+*telephony-radio* (Android System): 11 s  Count:605 0,0%
+ActivityManager-Sleep (Android System): 4 s  Count:709 0,0%
+GCM_READ (Google Play services): 1 s  Count:232 0,0%
+================
+Kernel Wakelocks 
+================
+alarmtimer (*api*): 37 m 4 s  Cnt:(c/wc/ec)1104/0/0 8,0%
+bq_delt_soc_wake_lock (*api*): 3 m 38 s  Cnt:(c/wc/ec)212/0/0 0,8%
+[timerfd] (*api*): 2 m 4 s  Cnt:(c/wc/ec)3418/0/0 0,4%
+PowerManagerService.WakeLocks (*api*): 51 s  Cnt:(c/wc/ec)787/0/0 0,2%
+PowerManager.SuspendLockout (*api*): 12 s  Cnt:(c/wc/ec)1/0/0 0,0%
+PowerManagerService.Display (*api*): 12 s  Cnt:(c/wc/ec)1/0/0 0,0%
+netmgr_wl (*api*): 2 s  Cnt:(c/wc/ec)1462/0/0 0,0%
+kickstart (*api*):  Cnt:(c/wc/ec)4/0/0 0,0%
+PowerManagerService.Broadcasts (*api*):  Cnt:(c/wc/ec)1/0/0 0,0%
+tp_syna (*api*):  Cnt:(c/wc/ec)351/0/0 0,0%
+radio-interface (*api*):  Cnt:(c/wc/ec)1/0/0 0,0%
+battery (*api*):  Cnt:(c/wc/ec)7/0/0 0,0%
+smp2p-sleepstate (*api*):  Cnt:(c/wc/ec)1/0/0 0,0%
+c440000.qcom,spmi:qcom,pm8150b@2:qpnp,fg (*api*):  Cnt:(c/wc/ec)103/0/0 0,0%
+ (*api*):  Cnt:(c/wc/ec)226/0/0 0,0%
+qcom-step-chg (*api*):  Cnt:(c/wc/ec)7/0/0 0,0%
+qcril (*api*):  Cnt:(c/wc/ec)3/0/0 0,0%
+event4 (*api*):  Cnt:(c/wc/ec)502/0/0 0,0%
+c440000.qcom,spmi:qcom,pm8150@0:qcom,pm8150_rtc (*api*):  Cnt:(c/wc/ec)95/0/0 0,0%
+0306_02.01.00 (*api*):  Cnt:(c/wc/ec)11045/0/0 0,0%
+eventpoll (*api*):  Cnt:(c/wc/ec)3476/0/0 0,0%
+qrtr_3 (*api*):  Cnt:(c/wc/ec)7650/0/0 0,0%
+SensorService_wakelock (*api*):  Cnt:(c/wc/ec)3/0/0 0,0%
+SensorsHAL_WAKEUP (*api*):  Cnt:(c/wc/ec)3/0/0 0,0%
+DIAG_WS (*api*):  Cnt:(c/wc/ec)25/0/0 0,0%
+ApmOutput (*api*):  Cnt:(c/wc/ec)1/0/0 0,0%
+0306_02.01.00_EFS (*api*):  Cnt:(c/wc/ec)2088/0/0 0,0%
+=========
+Processes
+=========
+android.system.suspend@1.0-service (Android System): Uid: 1000 Sys: 41 m 20 s  Us: 39 s  Starts: 0
+system (Android System): Uid: 1000 Sys: 7 m 15 s  Us: 6 m 27 s  Starts: 0
+ueventd (0): Uid: 0 Sys: 40 s  Us: 4 m 11 s  Starts: 0
+android.hardware.usb@1.2-service-qti (0): Uid: 0 Sys: 1 m 47 s  Us: 2 m 44 s  Starts: 0
+netmgrd (Phone Services): Uid: 1001 Sys: 4 m 4 s  Us: 11 s  Starts: 0
+qcrild (Phone Services): Uid: 1001 Sys: 3 m 21 s  Us: 15 s  Starts: 0
+netd (0): Uid: 0 Sys: 45 s  Us: 2 m 2 s  Starts: 0
+migration/0 (0): Uid: 0 Sys: 2 m 13 s  Us:  Starts: 0
+logd (1036): Uid: 1036 Sys: 40 s  Us: 1 m 18 s  Starts: 0
+ssgtzd (Android System): Uid: 1000 Sys: 1 m 52 s  Us: 2 s  Starts: 0
+msm_irqbalance (0): Uid: 0 Sys: 1 m 2 s  Us: 47 s  Starts: 0
+crtc_commit:144 (0): Uid: 0 Sys: 1 m 31 s  Us:  Starts: 0
+ksoftirqd/0 (0): Uid: 0 Sys: 1 m 31 s  Us:  Starts: 0
+android.hardware.camera.provider@2.4-service_64 (1047): Uid: 1047 Sys: 42 s  Us: 43 s  Starts: 0
+kworker/u17:3-kgsl-events (0): Uid: 0 Sys: 1 m 21 s  Us:  Starts: 0
+migration/3 (0): Uid: 0 Sys: 1 m 12 s  Us:  Starts: 0
+kworker/u16:11-ufs_pm_qos_0 (0): Uid: 0 Sys: 1 m 10 s  Us:  Starts: 0
+kworker/0:0-events (0): Uid: 0 Sys: 1 m 8 s  Us:  Starts: 0
+kworker/u16:1-events_power_efficient (0): Uid: 0 Sys: 1 m 5 s  Us:  Starts: 0
+kworker/u16:12-memlat_wq (0): Uid: 0 Sys: 1 m 4 s  Us:  Starts: 0
+kworker/0:4-pm (0): Uid: 0 Sys: 1 m 3 s  Us:  Starts: 0
+sh (0): Uid: 0 Sys: 40 s  Us: 21 s  Starts: 0
+kworker/u16:13-events_unbound (0): Uid: 0 Sys: 1 m 1 s  Us:  Starts: 0
+kworker/u16:4-events_power_efficient (0): Uid: 0 Sys: 60 s  Us:  Starts: 0
+kworker/u16:3-kgsl-workqueue (0): Uid: 0 Sys: 58 s  Us:  Starts: 0
+kworker/0:1 (0): Uid: 0 Sys: 58 s  Us:  Starts: 0
+kworker/u16:8-events_unbound (0): Uid: 0 Sys: 56 s  Us:  Starts: 0
+kworker/u16:2-events_unbound (0): Uid: 0 Sys: 55 s  Us:  Starts: 0
+migration/7 (0): Uid: 0 Sys: 55 s  Us:  Starts: 0
+kworker/u16:7-events_unbound (0): Uid: 0 Sys: 55 s  Us:  Starts: 0
+kworker/u16:16-events_unbound (0): Uid: 0 Sys: 54 s  Us:  Starts: 0
+kworker/u16:15-events_unbound (0): Uid: 0 Sys: 54 s  Us:  Starts: 0
+kworker/u16:5-events_unbound (0): Uid: 0 Sys: 54 s  Us:  Starts: 0
+migration/2 (0): Uid: 0 Sys: 52 s  Us:  Starts: 0
+kworker/u16:9-events_unbound (0): Uid: 0 Sys: 51 s  Us:  Starts: 0
+kworker/u16:18 (0): Uid: 0 Sys: 51 s  Us:  Starts: 0
+migration/6 (0): Uid: 0 Sys: 50 s  Us:  Starts: 0
+kworker/u16:10-ipa_interrupt_wq (0): Uid: 0 Sys: 50 s  Us:  Starts: 0
+kworker/u16:0-events_power_efficient (0): Uid: 0 Sys: 50 s  Us:  Starts: 0
+qseecomd (Android System): Uid: 1000 Sys: 48 s  Us:  Starts: 0
+kworker/u16:6-events_unbound (0): Uid: 0 Sys: 47 s  Us:  Starts: 0
+kworker/u16:14-events_unbound (0): Uid: 0 Sys: 45 s  Us:  Starts: 0
+irq/16-90b6400. (0): Uid: 0 Sys: 44 s  Us:  Starts: 0
+migration/5 (0): Uid: 0 Sys: 43 s  Us:  Starts: 0
+cpuhp/4 (0): Uid: 0 Sys: 42 s  Us:  Starts: 0
+cpuhp/7 (0): Uid: 0 Sys: 42 s  Us:  Starts: 0
+kworker/u16:19 (0): Uid: 0 Sys: 41 s  Us:  Starts: 0
+cpuhp/1 (0): Uid: 0 Sys: 41 s  Us:  Starts: 0
+usap64 (0): Uid: 0 Sys: 40 s  Us:  Starts: 0
+kworker/0:3-rmnet_shs_wq (0): Uid: 0 Sys: 40 s  Us:  Starts: 0
+rcu_preempt (0): Uid: 0 Sys: 40 s  Us:  Starts: 0
+migration/4 (0): Uid: 0 Sys: 39 s  Us:  Starts: 0
+kworker/u17:6-kgsl-events (0): Uid: 0 Sys: 38 s  Us:  Starts: 0
+com.google.android.gms.persistent (Google Play services): Uid: 10131 Sys: 17 s  Us: 20 s  Starts: 0
+usap32 (0): Uid: 0 Sys: 37 s  Us:  Starts: 0
+imsdatadaemon (Phone Services): Uid: 1001 Sys: 36 s  Us: 1 s  Starts: 0
+kworker/0:5-rmnet_shs_wq (0): Uid: 0 Sys: 36 s  Us:  Starts: 0
+cnd (Android System): Uid: 1000 Sys: 34 s  Us:  Starts: 0
+kworker/0:2-pm (0): Uid: 0 Sys: 35 s  Us:  Starts: 0
+kworker/u16:17-events_unbound (0): Uid: 0 Sys: 34 s  Us:  Starts: 0
+kworker/u17:0-offload_wq (0): Uid: 0 Sys: 33 s  Us:  Starts: 0
+kworker/0:3 (0): Uid: 0 Sys: 30 s  Us:  Starts: 0
+cpuhp/5 (0): Uid: 0 Sys: 30 s  Us:  Starts: 0
+com.android.providers.media.module (com.android.providers.media.module.Media Storage): Uid: 10204 Sys: 23 s  Us: 6 s  Starts: 0
+migration/1 (0): Uid: 0 Sys: 29 s  Us:  Starts: 0
+cpuhp/6 (0): Uid: 0 Sys: 29 s  Us:  Starts: 0
+rcuop/0 (0): Uid: 0 Sys: 27 s  Us:  Starts: 0
+com.android.systemui (com.android.systemui.System UI): Uid: 10198 Sys: 7 s  Us: 19 s  Starts: 0
+com.google.android.gms (Google Play services): Uid: 10131 Sys: 12 s  Us: 14 s  Starts: 0
+vendor.qti.hardware.display.composer-service (Android System): Uid: 1000 Sys: 20 s  Us: 5 s  Starts: 0
+statsd (1066): Uid: 1066 Sys: 11 s  Us: 13 s  Starts: 0
+rcuop/2 (0): Uid: 0 Sys: 24 s  Us:  Starts: 0
+com.android.phone (Phone Services): Uid: 1001 Sys: 8 s  Us: 15 s  Starts: 0
+sscrpcd (Android System): Uid: 1000 Sys: 23 s  Us:  Starts: 0
+com.whatsapp (com.whatsapp.WhatsApp): Uid: 10221 Sys: 11 s  Us: 11 s  Starts: 1
+cpuhp/2 (0): Uid: 0 Sys: 23 s  Us:  Starts: 0
+kworker/1:6-rmnet_shs_wq (0): Uid: 0 Sys: 22 s  Us:  Starts: 0
+kworker/0:2-events (0): Uid: 0 Sys: 21 s  Us:  Starts: 0
+cpuhp/3 (0): Uid: 0 Sys: 21 s  Us:  Starts: 0
+magiskd (0): Uid: 0 Sys: 20 s  Us:  Starts: 0
+android.hardware.gnss@2.1-service-qti (1021): Uid: 1021 Sys: 20 s  Us:  Starts: 0
+kworker/2:6-pm (0): Uid: 0 Sys: 19 s  Us:  Starts: 0
+time_daemon (Android System): Uid: 1000 Sys: 18 s  Us:  Starts: 0
+crtc_commit:197 (0): Uid: 0 Sys: 18 s  Us:  Starts: 0
+kworker/u17:1-offload_wq (0): Uid: 0 Sys: 17 s  Us:  Starts: 0
+crtc_commit:205 (0): Uid: 0 Sys: 16 s  Us:  Starts: 0
+com.android.networkstack.process (UID): Uid: 1073 Sys: 9 s  Us: 6 s  Starts: 0
+qmipriod (Phone Services): Uid: 1001 Sys: 15 s  Us:  Starts: 0
+kworker/3:7-events (0): Uid: 0 Sys: 15 s  Us:  Starts: 0
+com.kiwibrowser.browser (com.kiwibrowser.browser.Kiwi Browser): Uid: 10259 Sys: 9 s  Us: 5 s  Starts: 0
+sensors.qti (Android System): Uid: 1000 Sys: 13 s  Us:  Starts: 0
+crtc_commit:213 (0): Uid: 0 Sys: 14 s  Us:  Starts: 0
+rcu_sched (0): Uid: 0 Sys: 14 s  Us:  Starts: 0
+imsrcsd (Phone Services): Uid: 1001 Sys: 13 s  Us:  Starts: 0
+kworker/5:1 (0): Uid: 0 Sys: 13 s  Us:  Starts: 0
+ksoftirqd/1 (0): Uid: 0 Sys: 13 s  Us:  Starts: 0
+kworker/4:3-rmnet_shs_wq (0): Uid: 0 Sys: 13 s  Us:  Starts: 0
+ims_rtp_daemon (Phone Services): Uid: 1001 Sys: 12 s  Us:  Starts: 0
+kworker/6:0 (0): Uid: 0 Sys: 12 s  Us:  Starts: 0
+android.hardware.health@2.0-service (Android System): Uid: 1000 Sys: 11 s  Us: 1 s  Starts: 0
+crtc_commit:221 (0): Uid: 0 Sys: 12 s  Us:  Starts: 0
+crtc_commit:229 (0): Uid: 0 Sys: 12 s  Us:  Starts: 0
+pp_event (0): Uid: 0 Sys: 12 s  Us:  Starts: 0
+kworker/1:4-mm_percpu_wq (0): Uid: 0 Sys: 12 s  Us:  Starts: 0
+adsprpcd (Android System): Uid: 1000 Sys: 12 s  Us:  Starts: 0
+port-bridge (Phone Services): Uid: 1001 Sys: 11 s  Us:  Starts: 0
+com.kiwibrowser.browser:privileged_process0 (com.kiwibrowser.browser.Kiwi Browser): Uid: 10259 Sys: 7 s  Us: 4 s  Starts: 0
+crtc_event:229 (0): Uid: 0 Sys: 11 s  Us:  Starts: 0
+irq/17-9091000. (0): Uid: 0 Sys: 11 s  Us:  Starts: 0
+android.hardware.sensors@2.0-service.multihal (Android System): Uid: 1000 Sys: 10 s  Us: 1 s  Starts: 0
+crtc_event:213 (0): Uid: 0 Sys: 11 s  Us:  Starts: 0
+cdsprpcd (Android System): Uid: 1000 Sys: 11 s  Us:  Starts: 0
+com.asksven.betterbatterystats (com.asksven.betterbatterystats.BBS): Uid: 10262 Sys: 9 s  Us: 2 s  Starts: 0
+vppservice (1013): Uid: 1013 Sys: 11 s  Us:  Starts: 0
+kworker/0:4 (0): Uid: 0 Sys: 11 s  Us:  Starts: 0
+crtc_event:221 (0): Uid: 0 Sys: 10 s  Us:  Starts: 0
+crtc_event:205 (0): Uid: 0 Sys: 10 s  Us:  Starts: 0
+com.kiwibrowser.browser:sandboxed_process1:org.chromium.content.app.SandboxedProcessService1 (com.kiwibrowser.browser.Kiwi Browser): Uid: 10259 Sys: 5 s  Us: 5 s  Starts: 0
+dpmQmiMgr (Android System): Uid: 1000 Sys: 10 s  Us:  Starts: 0
+kworker/7:3-events (0): Uid: 0 Sys: 10 s  Us:  Starts: 0
+cnss-daemon (Android System): Uid: 1000 Sys: 10 s  Us:  Starts: 0
+ipacm (Phone Services): Uid: 1001 Sys: 8 s  Us: 2 s  Starts: 0
+rcuos/0 (0): Uid: 0 Sys: 10 s  Us:  Starts: 0
+rcuop/1 (0): Uid: 0 Sys: 9 s  Us:  Starts: 0
+rcuop/4 (0): Uid: 0 Sys: 9 s  Us:  Starts: 0
+rcuop/6 (0): Uid: 0 Sys: 9 s  Us:  Starts: 0
+adsprpcd (1013): Uid: 1013 Sys: 9 s  Us:  Starts: 0
+android.hardware.biometrics.fingerprint@2.1-service.oneplus_kona (Android System): Uid: 1000 Sys: 9 s  Us:  Starts: 0
+xtra-daemon (1021): Uid: 1021 Sys: 9 s  Us:  Starts: 0
+rcuop/3 (0): Uid: 0 Sys: 9 s  Us:  Starts: 0
+qti (Phone Services): Uid: 1001 Sys: 8 s  Us:  Starts: 0
+rcuos/2 (0): Uid: 0 Sys: 9 s  Us:  Starts: 0
+servicemanager (Android System): Uid: 1000 Sys: 2 s  Us: 6 s  Starts: 0
+vold (0): Uid: 0 Sys: 5 s  Us: 3 s  Starts: 0
+ksoftirqd/3 (0): Uid: 0 Sys: 8 s  Us:  Starts: 0
+crtc_event:197 (0): Uid: 0 Sys: 8 s  Us:  Starts: 0
+kworker/u17:0 (0): Uid: 0 Sys: 8 s  Us:  Starts: 0
+qrtr_rx (0): Uid: 0 Sys: 7 s  Us:  Starts: 0
+kworker/1:3-sock_diag_events (0): Uid: 0 Sys: 7 s  Us:  Starts: 0
+crtc_event:144 (0): Uid: 0 Sys: 7 s  Us:  Starts: 0
+mlid (1021): Uid: 1021 Sys: 7 s  Us:  Starts: 0
+iptables-restore (0): Uid: 0 Sys: 5 s  Us: 2 s  Starts: 0
+imsqmidaemon (Phone Services): Uid: 1001 Sys: 6 s  Us:  Starts: 0
+ATFWD-daemon (Android System): Uid: 1000 Sys: 6 s  Us:  Starts: 0
+core_ctl/4 (0): Uid: 0 Sys: 6 s  Us:  Starts: 0
+tri-state-key_daemon (Android System): Uid: 1000 Sys: 5 s  Us: 1 s  Starts: 0
+ksoftirqd/2 (0): Uid: 0 Sys: 6 s  Us:  Starts: 0
+hwservicemanager (Android System): Uid: 1000 Sys:  Us: 6 s  Starts: 0
+ip6tables-restore (0): Uid: 0 Sys: 4 s  Us: 1 s  Starts: 0
+kworker/3:6 (0): Uid: 0 Sys: 6 s  Us:  Starts: 0
+surfaceflinger (Android System): Uid: 1000 Sys: 5 s  Us:  Starts: 0
+tftp_server (2903): Uid: 2903 Sys: 6 s  Us:  Starts: 0
+kworker/3:5-mm_percpu_wq (0): Uid: 0 Sys: 6 s  Us:  Starts: 0
+zygote64 (0): Uid: 0 Sys: 5 s  Us:  Starts: 0
+android.hardware.audio.service (1041): Uid: 1041 Sys: 5 s  Us:  Starts: 0
+kworker/7:2-pm (0): Uid: 0 Sys: 5 s  Us:  Starts: 0
+traced (9999): Uid: 9999 Sys: 4 s  Us:  Starts: 0
+init (0): Uid: 0 Sys: 4 s  Us:  Starts: 0
+adbd (com.android.shell.Shell): Uid: 2000 Sys: 4 s  Us:  Starts: 0
+traced_probes (9999): Uid: 9999 Sys: 4 s  Us:  Starts: 0
+core_ctl/7 (0): Uid: 0 Sys: 4 s  Us:  Starts: 0
+vl53l1_daemon_main (Android System): Uid: 1000 Sys: 4 s  Us:  Starts: 0
+ssgqmigd (Phone Services): Uid: 1001 Sys: 4 s  Us:  Starts: 0
+org.telegram.messenger (org.telegram.messenger.Telegram): Uid: 10224 Sys: 3 s  Us: 1 s  Starts: 0
+zygote (0): Uid: 0 Sys: 4 s  Us:  Starts: 0
+ks (0): Uid: 0 Sys: 4 s  Us:  Starts: 0
+dashd (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+pm-service (Android System): Uid: 1000 Sys: 3 s  Us:  Starts: 0
+qrtr-ns (2906): Uid: 2906 Sys: 3 s  Us:  Starts: 0
+rcuos/1 (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+mdm_helper (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+pd-mapper (Android System): Uid: 1000 Sys: 3 s  Us:  Starts: 0
+rcuop/5 (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+wlchgd (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+feature_enabler_client (Android System): Uid: 1000 Sys: 3 s  Us:  Starts: 0
+dpmd (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+iorapd (1071): Uid: 1071 Sys: 3 s  Us:  Starts: 0
+loc_launcher (1021): Uid: 1021 Sys: 3 s  Us:  Starts: 0
+qseecom-unload- (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+com.discord (com.discord.Discord): Uid: 10222 Sys:  Us: 2 s  Starts: 1
+rcuos/3 (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+lowi-server (1021): Uid: 1021 Sys: 3 s  Us:  Starts: 0
+com.google.android.deskclock (com.google.android.deskclock.Clock): Uid: 10168 Sys:  Us: 3 s  Starts: 2
+dpmd (Android System): Uid: 1000 Sys: 2 s  Us:  Starts: 0
+rcuos/4 (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+rcuos/6 (0): Uid: 0 Sys: 3 s  Us:  Starts: 0
+kauditd (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+com.teslacoilsw.launcher (com.teslacoilsw.launcher.Nova7): Uid: 10246 Sys:  Us: 2 s  Starts: 0
+iorap.prefetcherd (1071): Uid: 1071 Sys: 2 s  Us:  Starts: 0
+f2fs_discard-25 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+webview_zygote (1053): Uid: 1053 Sys: 2 s  Us:  Starts: 0
+kcompactd0 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+kswapd-1:0 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+kworker/2:5-mm_percpu_wq (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+jbd2/sda9-8 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+jbd2/sda2-8 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+jbd2/sde9-8 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+jbd2/sda19-8 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+kworker/1:0 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+f2fs_gc-252:10 (0): Uid: 0 Sys: 2 s  Us:  Starts: 0
+com.google.android.gms.unstable (Google Play services): Uid: 10131 Sys:  Us: 1 s  Starts: 1
+sh (com.asksven.betterbatterystats.BBS): Uid: 10262 Sys: 1 s  Us:  Starts: 0
+com.google.android.googlequicksearchbox:search (com.google.android.googlequicksearchbox.Google): Uid: 10130 Sys:  Us:  Starts: 0
+com.android.vending (com.android.vending.Google Play Store): Uid: 10151 Sys:  Us: 1 s  Starts: 0
+kworker/1:2-events (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+vndservicemanager (Android System): Uid: 1000 Sys:  Us: 1 s  Starts: 0
+ecryptfs-kthrea (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kworker/6:2 (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kworker/2:4-pm (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kgsl_worker_thr (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+lmkd (1069): Uid: 1069 Sys: 1 s  Us:  Starts: 0
+rcuop/7 (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kworker/1:0H-kblockd (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kworker/u17:4-kgsl-events (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+android.hardware.memtrack@1.0-service (Android System): Uid: 1000 Sys:  Us:  Starts: 0
+storaged (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/3:0-events (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kworker/2:0H (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+kworker/3:1H-events_highpri (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+rcuos/7 (0): Uid: 0 Sys: 1 s  Us:  Starts: 0
+org.codeaurora.ims (org.codeaurora.ims.org.codeaurora.ims): Uid: 10188 Sys:  Us:  Starts: 0
+kworker/3:3 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/3:4 (0): Uid: 0 Sys:  Us:  Starts: 0
+rcuos/5 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/1:1-rmnet_shs_wq (0): Uid: 0 Sys:  Us:  Starts: 0
+ksoftirqd/7 (0): Uid: 0 Sys:  Us:  Starts: 0
+msm_watchdog (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/3:0H-events_highpri (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/2:2H-kblockd (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/1:2H (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/3:2-rmnet_shs_wq (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/6:1 (0): Uid: 0 Sys:  Us:  Starts: 0
+ksoftirqd/6 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/2:1 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/1:5-events (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/2:0-rmnet_shs_wq (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/3:1-mm_percpu_wq (0): Uid: 0 Sys:  Us:  Starts: 0
+ksoftirqd/4 (0): Uid: 0 Sys:  Us:  Starts: 0
+com.android.providers.calendar (com.android.providers.calendar.Calendar Storage): Uid: 10090 Sys:  Us:  Starts: 1
+ksoftirqd/5 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/0:1H-kblockd (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/5:1H-kblockd (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/6:1H-kblockd (0): Uid: 0 Sys:  Us:  Starts: 0
+audioserver (1041): Uid: 1041 Sys:  Us:  Starts: 0
+com.google.process.gservices (Google Play services): Uid: 10131 Sys:  Us:  Starts: 1
+kworker/2:2 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/7:1H-kblockd (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/4:1H-kblockd (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/5:0 (0): Uid: 0 Sys:  Us:  Starts: 0
+cameraserver (1047): Uid: 1047 Sys:  Us:  Starts: 0
+kworker/2:3-pm (0): Uid: 0 Sys:  Us:  Starts: 0
+com.google.android.apps.nexuslauncher (com.google.android.apps.nexuslauncher.Pixel Launcher): Uid: 10191 Sys:  Us:  Starts: 0
+com.google.android.inputmethod.latin (com.google.android.inputmethod.latin.Gboard): Uid: 10165 Sys:  Us:  Starts: 0
+system (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/7:0-events (0): Uid: 0 Sys:  Us:  Starts: 0
+android.process.acore (Android Core Apps): Uid: 10085 Sys:  Us:  Starts: 1
+kworker/5:2 (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/4:2-mm_percpu_wq (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/4:0-pm (0): Uid: 0 Sys:  Us:  Starts: 0
+android.ext.services (android.ext.services.Android Services Library): Uid: 10205 Sys:  Us:  Starts: 0
+com.google.process.gapps (Google Play services): Uid: 10131 Sys:  Us:  Starts: 1
+kworker/6:0H-events_highpri (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/5:0H-events_highpri (0): Uid: 0 Sys:  Us:  Starts: 0
+kworker/4:0H-events_highpri (0): Uid: 0 Sys:  Us:  Starts: 0
+qmp_aop (0): Uid: 0 Sys:  Us:  Starts: 0
+android.hardware.keymaster@4.0-service-qti (Android System): Uid: 1000 Sys:  Us:  Starts: 0
+vendor.qti.hardware.display.allocator-service (Android System): Uid: 1000 Sys:  Us:  Starts: 0
+com.android.nfc (com.android.nfc.Nfc Service): Uid: 1027 Sys:  Us:  Starts: 0
+irq/447-dma-gra (0): Uid: 0 Sys:  Us:  Starts: 0
+keystore (1017): Uid: 1017 Sys:  Us:  Starts: 0
+com.google.android.googlequicksearchbox:interactor (com.google.android.googlequicksearchbox.Google): Uid: 10130 Sys:  Us:  Starts: 0
+kthreadd (0): Uid: 0 Sys:  Us:  Starts: 0
+======================
+Alarms
+======================
+com.google.android.gms (): Wakeups: 84 (10,8 / h)
+  Alarms: 71, Intent: com.google.android.gms.gcm.HEARTBEAT_ALARM
+  Alarms: 1, Intent: com.google.android.gms.gcm.ACTION_CHECK_QUEUE
+  Alarms: 0, Intent: com.google.android.gms.auth.authzen.cryptauth.DEVICE_STATE_CHECK_DELAY_COMPLETE
+  Alarms: 10, Intent: CONTEXT_MANAGER_ALARM_WAKEUP
+  Alarms: 0, Intent: com.google.android.gms.gcm.TRIGGER_IDLE
+  Alarms: 0, Intent: com.google.android.gms.westworld.action.ALARM
+  Alarms: 0, Intent: com.google.android.gms.westworld.action.METADATA_ALARM
+  Alarms: 0, Intent: com.google.android.gms.drive.ApiService.RESET_AFTER_BOOT
+  Alarms: 0, Intent: com.google.android.gms.common.operation.LOG_CORE_ANALYTICS
+  Alarms: 1, Intent: com.google.android.gms.reminders.notification.ACTION_REFRESH_TIME_REMINDERS
+  Alarms: 1, Intent: com.google.android.gms.fido.authenticator.autoenroll.FIDO_ENROLLMENT_CHECK_DELAY_COMPLETE
+  Alarms: 0, Intent: com.google.android.intent.action.GCM_RECONNECT
+
+android (): Wakeups: 3 (0,4 / h)
+  Alarms: 0, Intent: TIME_TICK
+  Alarms: 1, Intent: *job.deadline*
+  Alarms: 0, Intent: *job.delay*
+  Alarms: 0, Intent: com.android.server.action.NETWORK_STATS_POLL
+  Alarms: 0, Intent: DeviceIdleController.light
+  Alarms: 0, Intent: android.intent.action.DATE_CHANGED
+  Alarms: 0, Intent: GraphicsStatsService
+  Alarms: 0, Intent: WifiHealthMonitor Schedule Daily Detection Timer
+  Alarms: 1, Intent: ScheduleConditionProvider.EVALUATE
+  Alarms: 1, Intent: JS idleness
+  Alarms: 0, Intent: LockSettingsPrimaryAuth.nonStrongBiometricIdleTimeoutForUser
+  Alarms: 0, Intent: lineageos.platform.intent.action.UPDATE_TWILIGHT_STATE
+  Alarms: 0, Intent: *CountQuotaTracker.cleanup*
+  Alarms: 0, Intent: *job.quota_check*
+  Alarms: 0, Intent: WifiHealthMonitor Schedule Post-Boot Detection Timer
+
+com.google.android.deskclock (): Wakeups: 3 (0,3 / h)
+  Alarms: 3, Intent: com.android.deskclock.action.UPDATE_ALARM_INSTANCES
+
+com.whatsapp (): Wakeups: 2 (0,3 / h)
+  Alarms: 0, Intent: com.whatsapp.alarm.CLIENT_PING_PERIODIC
+  Alarms: 1, Intent: com.whatsapp.action.DAILY_CRON
+  Alarms: 0, Intent: com.whatsapp.action.HOURLY_CRON
+  Alarms: 1, Intent: com.whatsapp.action.BACKUP_MESSAGES
+  Alarms: 0, Intent: com.whatsapp.MessageHandler.LOGOUT_ACTION
+  Alarms: 0, Intent: com.whatsapp.alarm.AVAILABLE_TIMEOUT
+
+com.android.providers.calendar (): Wakeups: 1 (0,1 / h)
+  Alarms: 1, Intent: com.android.providers.calendar.intent.CalendarProvider2
+
+com.android.systemui (): Wakeups: 1 (0,1 / h)
+  Alarms: 0, Intent: lock_screen_next_alarm
+  Alarms: 1, Intent: SmartSpace
+
+======================
+Network
+======================
+10131 (Mobile) (Google Play services): 396.0 KBytes 35,7%
+10151 (Mobile) (com.android.vending.Google Play Store): 296.0 KBytes 26,6%
+10130 (Mobile) (com.google.android.googlequicksearchbox.Google): 253.0 KBytes 22,8%
+0 (Mobile) (0): 77.0 KBytes 6,9%
+10141 (Mobile) (com.google.android.dialer.Phone): 35.0 KBytes 3,2%
+10221 (Mobile) (com.whatsapp.WhatsApp): 33.0 KBytes 3,0%
+10173 (Mobile) (com.google.android.apps.messaging.Messages): 20.0 KBytes 1,8%
+==========
+CPU States
+==========
+1,8 GHz (): 2 m 6 s  0,5%
+1,71 GHz (): 13 s  0,0%
+1,61 GHz (): 21 s  0,1%
+1,52 GHz (): 19 s  0,1%
+1,42 GHz (): 23 s  0,1%
+1,34 GHz (): 29 s  0,1%
+1,25 GHz (): 5 m 5 s  1,1%
+1,17 GHz (): 28 s  0,1%
+1,08 GHz (): 26 s  0,1%
+979,2 MHz (): 32 s  0,1%
+883,2 MHz (): 43 s  0,2%
+787,2 MHz (): 45 s  0,2%
+691,2 MHz (): 35 s  0,1%
+614,4 MHz (): 40 s  0,1%
+518,4 MHz (): 34 s  0,1%
+403,2 MHz (): 55 s  0,2%
+300 MHz (): 40 m 59 s  8,8%
+Deep Sleep (): 6 h 49 m 38 s  88,0%
+==========
+Sensors
+==========
+ (Android System):   Sensor: device_orient  Wakeup(272), wakeup=true, Time: 12 s 
+
+ (org.telegram.messenger.Telegram):   Sensor: stk_stk2232 Proximity Sensor Wakeup(82), wakeup=true, Time: 0 s
+  Sensor: gravity  Non-wakeup(91), wakeup=false, Time: 0 s
+  Sensor: linear_acceleration(101), wakeup=false, Time: 0 s
+
+========
+Services
+========
+Active since: The time when the service was first made active, either by someone starting or binding to it.
+Last activity: The time when there was last activity in the service (either explicit requests to start it or clients binding to it)
+See http://developer.android.com/reference/android/app/ActivityManager.RunningServiceInfo.html
+com.asksven.betterbatterystats (com.asksven.betterbatterystats.services.EventWatcherService)
+  Active since: 37 s 
+  Last activity: 3 h 25 m 16 s 
+  Crash count:0
+==================
+Reference overview
+==================
+ref_boot: Reference ref_boot created 18738 d 17 h 49 m 3 s  (Wl: 17 elements; KWl: 52elements; NetS: 32 elements; Alrm: 1 elements; Proc: 623 elements; Oth: 15 elements; CPU: 17 elements; Sensors: 5 elements)
+ref_unplugged: Reference ref_unplugged created 18738 d 20 h 11 m 25 s  (Wl: 0 elements; KWl: 67elements; NetS: 0 elements; Alrm: 4 elements; Proc: 39 elements; Oth: 5 elements; CPU: 18 elements; Sensors: 1 elements)
+ref_charged: Reference ref_charged created 18738 d 20 h 11 m 25 s  (Wl: 0 elements; KWl: 67elements; NetS: 0 elements; Alrm: 4 elements; Proc: 39 elements; Oth: 5 elements; CPU: 18 elements; Sensors: 1 elements)
+ref_screen_off: Reference ref_screen_off created 18738 d 21 h 44 m 53 s  (Wl: 3 elements; KWl: 69elements; NetS: 11 elements; Alrm: 4 elements; Proc: 294 elements; Oth: 8 elements; CPU: 18 elements; Sensors: 2 elements)
+ref_screen_on: Reference ref_screen_on created 18739 d 5 h 30 m 14 s  (Wl: 4 elements; KWl: 69elements; NetS: 12 elements; Alrm: 6 elements; Proc: 338 elements; Oth: 8 elements; CPU: 18 elements; Sensors: 2 elements)
+ref_current: Reference ref_current created 18739 d 5 h 30 m 16 s  (Wl: 4 elements; KWl: 69elements; NetS: 12 elements; Alrm: 6 elements; Proc: 338 elements; Oth: 8 elements; CPU: 18 elements; Sensors: 2 elements)
+------ human readable part end here
+*/
+{
+  "alarmStats": [
+    {
+      "details": "",
+      "items": [
+        {
+          "number": 71,
+          "intent": "com.google.android.gms.gcm.HEARTBEAT_ALARM"
+        },
+        {
+          "number": 1,
+          "intent": "com.google.android.gms.gcm.ACTION_CHECK_QUEUE"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.gms.auth.authzen.cryptauth.DEVICE_STATE_CHECK_DELAY_COMPLETE"
+        },
+        {
+          "number": 10,
+          "intent": "CONTEXT_MANAGER_ALARM_WAKEUP"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.gms.gcm.TRIGGER_IDLE"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.gms.westworld.action.ALARM"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.gms.westworld.action.METADATA_ALARM"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.gms.drive.ApiService.RESET_AFTER_BOOT"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.gms.common.operation.LOG_CORE_ANALYTICS"
+        },
+        {
+          "number": 1,
+          "intent": "com.google.android.gms.reminders.notification.ACTION_REFRESH_TIME_REMINDERS"
+        },
+        {
+          "number": 1,
+          "intent": "com.google.android.gms.fido.authenticator.autoenroll.FIDO_ENROLLMENT_CHECK_DELAY_COMPLETE"
+        },
+        {
+          "number": 0,
+          "intent": "com.google.android.intent.action.GCM_RECONNECT"
+        }
+      ],
+      "total_count": 94,
+      "wakeups": 84,
+      "package_name": "com.google.android.gms",
+      "time_runing_ms": 27921024,
+      "total": 0,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "details": "",
+      "items": [
+        {
+          "number": 0,
+          "intent": "TIME_TICK"
+        },
+        {
+          "number": 1,
+          "intent": "*job.deadline*"
+        },
+        {
+          "number": 0,
+          "intent": "*job.delay*"
+        },
+        {
+          "number": 0,
+          "intent": "com.android.server.action.NETWORK_STATS_POLL"
+        },
+        {
+          "number": 0,
+          "intent": "DeviceIdleController.light"
+        },
+        {
+          "number": 0,
+          "intent": "android.intent.action.DATE_CHANGED"
+        },
+        {
+          "number": 0,
+          "intent": "GraphicsStatsService"
+        },
+        {
+          "number": 0,
+          "intent": "WifiHealthMonitor Schedule Daily Detection Timer"
+        },
+        {
+          "number": 1,
+          "intent": "ScheduleConditionProvider.EVALUATE"
+        },
+        {
+          "number": 1,
+          "intent": "JS idleness"
+        },
+        {
+          "number": 0,
+          "intent": "LockSettingsPrimaryAuth.nonStrongBiometricIdleTimeoutForUser"
+        },
+        {
+          "number": 0,
+          "intent": "lineageos.platform.intent.action.UPDATE_TWILIGHT_STATE"
+        },
+        {
+          "number": 0,
+          "intent": "*CountQuotaTracker.cleanup*"
+        },
+        {
+          "number": 0,
+          "intent": "*job.quota_check*"
+        },
+        {
+          "number": 0,
+          "intent": "WifiHealthMonitor Schedule Post-Boot Detection Timer"
+        }
+      ],
+      "total_count": 94,
+      "wakeups": 3,
+      "package_name": "android",
+      "time_runing_ms": 27921024,
+      "total": 0,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "details": "",
+      "items": [
+        {
+          "number": 3,
+          "intent": "com.android.deskclock.action.UPDATE_ALARM_INSTANCES"
+        }
+      ],
+      "total_count": 304,
+      "wakeups": 3,
+      "package_name": "com.google.android.deskclock",
+      "time_runing_ms": 42109499,
+      "total": 0,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "details": "",
+      "items": [
+        {
+          "number": 0,
+          "intent": "com.whatsapp.alarm.CLIENT_PING_PERIODIC"
+        },
+        {
+          "number": 1,
+          "intent": "com.whatsapp.action.DAILY_CRON"
+        },
+        {
+          "number": 0,
+          "intent": "com.whatsapp.action.HOURLY_CRON"
+        },
+        {
+          "number": 1,
+          "intent": "com.whatsapp.action.BACKUP_MESSAGES"
+        },
+        {
+          "number": 0,
+          "intent": "com.whatsapp.MessageHandler.LOGOUT_ACTION"
+        },
+        {
+          "number": 0,
+          "intent": "com.whatsapp.alarm.AVAILABLE_TIMEOUT"
+        }
+      ],
+      "total_count": 94,
+      "wakeups": 2,
+      "package_name": "com.whatsapp",
+      "time_runing_ms": 27921024,
+      "total": 0,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "details": "",
+      "items": [
+        {
+          "number": 1,
+          "intent": "com.android.providers.calendar.intent.CalendarProvider2"
+        }
+      ],
+      "total_count": 94,
+      "wakeups": 1,
+      "package_name": "com.android.providers.calendar",
+      "time_runing_ms": 27921024,
+      "total": 0,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "details": "",
+      "items": [
+        {
+          "number": 0,
+          "intent": "lock_screen_next_alarm"
+        },
+        {
+          "number": 1,
+          "intent": "SmartSpace"
+        }
+      ],
+      "total_count": 304,
+      "wakeups": 1,
+      "package_name": "com.android.systemui",
+      "time_runing_ms": 42109499,
+      "total": 0,
+      "uid": -1,
+      "uid_info": null
+    }
+  ],
+  "batteryLevelLost": -7,
+  "batteryLevelLostText": "Bat.: -7%(95% to 88%) [0,9%/h]",
+  "batteryServiceState": "Success",
+  "batteryStatsPermGranted": true,
+  "batteryVoltageLost": -41,
+  "batteryVoltageLostText": "(4280-4239) [5,3%/h]",
+  "bbsVersion": "2.5-344",
+  "buildBootloader": "unknown",
+  "buildBrand": "OnePlus",
+  "buildDevice": "OnePlus8Pro",
+  "buildFingerprint": "OnePlus/instantnoodlep/instantnoodlep:11/RQ2A.210405.005/0851:userdebug/release-keys",
+  "buildHardware": "qcom",
+  "buildId": "RQ2A.210405.005",
+  "buildManufacturer": "OnePlus",
+  "buildModel": "IN2023",
+  "buildProduct": "OnePlus8Pro",
+  "buildRadio": "0028.5-SDX55_RMTEFS_PACK-1.319165.17.326239.5,0028.5-SDX55_RMTEFS_PACK-1.319165.17.326239.5",
+  "buildTags": "release-keys",
+  "buildUser": "android_build",
+  "buildVersionRelease": "11",
+  "cpuStateStats": [
+    {
+      "duration_ms": 126270,
+      "freq": 1804800,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 13680,
+      "freq": 1708800,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 21960,
+      "freq": 1612800,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 19680,
+      "freq": 1516800,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 23800,
+      "freq": 1420800,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 29770,
+      "freq": 1344000,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 305820,
+      "freq": 1248000,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 28010,
+      "freq": 1171200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 26730,
+      "freq": 1075200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 32420,
+      "freq": 979200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 43550,
+      "freq": 883200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 45510,
+      "freq": 787200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 35680,
+      "freq": 691200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 40360,
+      "freq": 614400,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 34950,
+      "freq": 518400,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 55540,
+      "freq": 403200,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 2459040,
+      "freq": 300000,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "duration_ms": 24578303,
+      "freq": 0,
+      "total": 27921073,
+      "uid": -1,
+      "uid_info": null
+    }
+  ],
+  "creationDate": "2021-04-22 07:30:27",
+  "duration": "7 h 45 m 21 s ",
+  "kernelWakelockStats": [
+    {
+      "active_since": 0,
+      "count": 1104,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "alarmtimer",
+      "sleep_time": 2224269,
+      "total_time": 2224269,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 212,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "bq_delt_soc_wake_lock",
+      "sleep_time": 218296,
+      "total_time": 218296,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 3418,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "[timerfd]",
+      "sleep_time": 124375,
+      "total_time": 124375,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 787,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "PowerManagerService.WakeLocks",
+      "sleep_time": 51152,
+      "total_time": 51152,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "PowerManager.SuspendLockout",
+      "sleep_time": 12280,
+      "total_time": 12280,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "PowerManagerService.Display",
+      "sleep_time": 12263,
+      "total_time": 12263,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1462,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "netmgr_wl",
+      "sleep_time": 2461,
+      "total_time": 2461,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 4,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "kickstart",
+      "sleep_time": 937,
+      "total_time": 937,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "PowerManagerService.Broadcasts",
+      "sleep_time": 621,
+      "total_time": 621,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 351,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "tp_syna",
+      "sleep_time": 440,
+      "total_time": 440,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "radio-interface",
+      "sleep_time": 299,
+      "total_time": 299,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 7,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "battery",
+      "sleep_time": 198,
+      "total_time": 198,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "smp2p-sleepstate",
+      "sleep_time": 198,
+      "total_time": 198,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 103,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "c440000.qcom,spmi:qcom,pm8150b@2:qpnp,fg",
+      "sleep_time": 170,
+      "total_time": 170,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 226,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "",
+      "sleep_time": 68,
+      "total_time": 68,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 7,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "qcom-step-chg",
+      "sleep_time": 52,
+      "total_time": 52,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 3,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "qcril",
+      "sleep_time": 44,
+      "total_time": 44,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 502,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "event4",
+      "sleep_time": 41,
+      "total_time": 41,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 95,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "c440000.qcom,spmi:qcom,pm8150@0:qcom,pm8150_rtc",
+      "sleep_time": 20,
+      "total_time": 20,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 11045,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "0306_02.01.00",
+      "sleep_time": 19,
+      "total_time": 19,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 3476,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "eventpoll",
+      "sleep_time": 11,
+      "total_time": 11,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 7650,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "qrtr_3",
+      "sleep_time": 9,
+      "total_time": 9,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 3,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "SensorService_wakelock",
+      "sleep_time": 4,
+      "total_time": 4,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 3,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "SensorsHAL_WAKEUP",
+      "sleep_time": 2,
+      "total_time": 2,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 25,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "DIAG_WS",
+      "sleep_time": 1,
+      "total_time": 1,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 1,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "ApmOutput",
+      "sleep_time": 1,
+      "total_time": 1,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "active_since": 0,
+      "count": 2088,
+      "details": "*api*",
+      "expire_count": 0,
+      "last_change": 0,
+      "max_time": 0,
+      "name": "0306_02.01.00_EFS",
+      "sleep_time": 1,
+      "total_time": 1,
+      "wake_count": 0,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    }
+  ],
+  "networkStats": [
+    {
+      "bytes_received": 222222,
+      "bytes_sent": 184252,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "bytes_received": 279728,
+      "bytes_sent": 23383,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 10151,
+      "uid_info": {
+        "m_uid": 10151,
+        "m_uidName": "Google Play Store",
+        "m_uidNamePackage": "com.android.vending",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "bytes_received": 171476,
+      "bytes_sent": 88042,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 10130,
+      "uid_info": {
+        "m_uid": 10130,
+        "m_uidName": "Google",
+        "m_uidNamePackage": "com.google.android.googlequicksearchbox",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "bytes_received": 0,
+      "bytes_sent": 78888,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "bytes_received": 27953,
+      "bytes_sent": 8559,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 10141,
+      "uid_info": {
+        "m_uid": 10141,
+        "m_uidName": "Phone",
+        "m_uidNamePackage": "com.google.android.dialer",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "bytes_received": 21900,
+      "bytes_sent": 12566,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 10221,
+      "uid_info": {
+        "m_uid": 10221,
+        "m_uidName": "WhatsApp",
+        "m_uidNamePackage": "com.whatsapp",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "bytes_received": 18543,
+      "bytes_sent": 2430,
+      "iface": "Mobile",
+      "total": 1139942,
+      "uid": 10173,
+      "uid_info": {
+        "m_uid": 10173,
+        "m_uidName": "Messages",
+        "m_uidNamePackage": "com.google.android.apps.messaging",
+        "m_uidUniqueName": true
+      }
+    }
+  ],
+  "note": null,
+  "osVersion": "4.19.157-Hasty",
+  "otherStats": [
+    {
+      "name": "Deep Sleep",
+      "time_on_ms": 24578304,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "Awake (Screen Off)",
+      "time_on_ms": 3330473,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "Screen On",
+      "time_on_ms": 12309,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "Doze Interactive Time",
+      "time_on_ms": 12311,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "Doze Idle Mode Time",
+      "time_on_ms": 27909413,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "No or Unknown Signal",
+      "time_on_ms": 175,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "Great Signal",
+      "time_on_ms": 27920911,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    },
+    {
+      "name": "Screen dark",
+      "time_on_ms": 12309,
+      "time_runing_ms": 27921086,
+      "total": 27921086,
+      "uid": -1,
+      "uid_info": null
+    }
+  ],
+  "partialWakelockStats": [
+    {
+      "count": 1087,
+      "duration_ms": 12818,
+      "name": "*telephony-radio*",
+      "wake_type": 0,
+      "total": 27921086000,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "count": 605,
+      "duration_ms": 11845,
+      "name": "*telephony-radio*",
+      "wake_type": 0,
+      "total": 27921086000,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "count": 709,
+      "duration_ms": 4277,
+      "name": "ActivityManager-Sleep",
+      "wake_type": 0,
+      "total": 27921086000,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "count": 232,
+      "duration_ms": 1360,
+      "name": "GCM_READ",
+      "wake_type": 0,
+      "total": 33528938000,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    }
+  ],
+  "processStats": [
+    {
+      "name": "android.system.suspend@1.0-service",
+      "starts": 0,
+      "system_time": 2480500,
+      "user_time": 39200,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "system",
+      "starts": 0,
+      "system_time": 435500,
+      "user_time": 387100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ueventd",
+      "starts": 0,
+      "system_time": 40700,
+      "user_time": 251100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.usb@1.2-service-qti",
+      "starts": 0,
+      "system_time": 107200,
+      "user_time": 164600,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "netmgrd",
+      "starts": 0,
+      "system_time": 244400,
+      "user_time": 11100,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qcrild",
+      "starts": 0,
+      "system_time": 201800,
+      "user_time": 15400,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "netd",
+      "starts": 0,
+      "system_time": 45900,
+      "user_time": 122300,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/0",
+      "starts": 0,
+      "system_time": 133200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "logd",
+      "starts": 0,
+      "system_time": 40000,
+      "user_time": 78500,
+      "total": 9164500,
+      "uid": 1036,
+      "uid_info": {
+        "m_uid": 1036,
+        "m_uidName": "1036",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ssgtzd",
+      "starts": 0,
+      "system_time": 112400,
+      "user_time": 2000,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "msm_irqbalance",
+      "starts": 0,
+      "system_time": 62600,
+      "user_time": 47000,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_commit:144",
+      "starts": 0,
+      "system_time": 91900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/0",
+      "starts": 0,
+      "system_time": 91900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.camera.provider@2.4-service_64",
+      "starts": 0,
+      "system_time": 42800,
+      "user_time": 43100,
+      "total": 9164500,
+      "uid": 1047,
+      "uid_info": {
+        "m_uid": 1047,
+        "m_uidName": "1047",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u17:3-kgsl-events",
+      "starts": 0,
+      "system_time": 81600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/3",
+      "starts": 0,
+      "system_time": 72800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:11-ufs_pm_qos_0",
+      "starts": 0,
+      "system_time": 70000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:0-events",
+      "starts": 0,
+      "system_time": 68300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:1-events_power_efficient",
+      "starts": 0,
+      "system_time": 65000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:12-memlat_wq",
+      "starts": 0,
+      "system_time": 64500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:4-pm",
+      "starts": 0,
+      "system_time": 63600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "sh",
+      "starts": 0,
+      "system_time": 40500,
+      "user_time": 21900,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:13-events_unbound",
+      "starts": 0,
+      "system_time": 61100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:4-events_power_efficient",
+      "starts": 0,
+      "system_time": 60200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:3-kgsl-workqueue",
+      "starts": 0,
+      "system_time": 58800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:1",
+      "starts": 0,
+      "system_time": 58200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:8-events_unbound",
+      "starts": 0,
+      "system_time": 56600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:2-events_unbound",
+      "starts": 0,
+      "system_time": 55900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/7",
+      "starts": 0,
+      "system_time": 55600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:7-events_unbound",
+      "starts": 0,
+      "system_time": 55400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:16-events_unbound",
+      "starts": 0,
+      "system_time": 54800,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:15-events_unbound",
+      "starts": 0,
+      "system_time": 54600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:5-events_unbound",
+      "starts": 0,
+      "system_time": 54000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/2",
+      "starts": 0,
+      "system_time": 52100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:9-events_unbound",
+      "starts": 0,
+      "system_time": 51400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:18",
+      "starts": 0,
+      "system_time": 51000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/6",
+      "starts": 0,
+      "system_time": 50700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:10-ipa_interrupt_wq",
+      "starts": 0,
+      "system_time": 50400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:0-events_power_efficient",
+      "starts": 0,
+      "system_time": 50200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qseecomd",
+      "starts": 0,
+      "system_time": 48400,
+      "user_time": 600,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:6-events_unbound",
+      "starts": 0,
+      "system_time": 47000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:14-events_unbound",
+      "starts": 0,
+      "system_time": 45700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "irq/16-90b6400.",
+      "starts": 0,
+      "system_time": 44000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/5",
+      "starts": 0,
+      "system_time": 43600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cpuhp/4",
+      "starts": 0,
+      "system_time": 42600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cpuhp/7",
+      "starts": 0,
+      "system_time": 42200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:19",
+      "starts": 0,
+      "system_time": 41900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cpuhp/1",
+      "starts": 0,
+      "system_time": 41600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "usap64",
+      "starts": 0,
+      "system_time": 40800,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:3-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 40400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcu_preempt",
+      "starts": 0,
+      "system_time": 40000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "migration/4",
+      "starts": 0,
+      "system_time": 39400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u17:6-kgsl-events",
+      "starts": 0,
+      "system_time": 38800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.google.android.gms.persistent",
+      "starts": 0,
+      "system_time": 17600,
+      "user_time": 20300,
+      "total": 9164500,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "usap32",
+      "starts": 0,
+      "system_time": 37300,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "imsdatadaemon",
+      "starts": 0,
+      "system_time": 36200,
+      "user_time": 1000,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:5-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 36000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cnd",
+      "starts": 0,
+      "system_time": 34600,
+      "user_time": 800,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:2-pm",
+      "starts": 0,
+      "system_time": 35000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u16:17-events_unbound",
+      "starts": 0,
+      "system_time": 34400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u17:0-offload_wq",
+      "starts": 0,
+      "system_time": 33400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:3",
+      "starts": 0,
+      "system_time": 30800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cpuhp/5",
+      "starts": 0,
+      "system_time": 30300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.android.providers.media.module",
+      "starts": 0,
+      "system_time": 23400,
+      "user_time": 6600,
+      "total": 9164500,
+      "uid": 10204,
+      "uid_info": {
+        "m_uid": 10204,
+        "m_uidName": "Media Storage",
+        "m_uidNamePackage": "com.android.providers.media.module",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "migration/1",
+      "starts": 0,
+      "system_time": 29500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cpuhp/6",
+      "starts": 0,
+      "system_time": 29400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/0",
+      "starts": 0,
+      "system_time": 27600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.android.systemui",
+      "starts": 0,
+      "system_time": 7500,
+      "user_time": 19300,
+      "total": 9164500,
+      "uid": 10198,
+      "uid_info": {
+        "m_uid": 10198,
+        "m_uidName": "System UI",
+        "m_uidNamePackage": "com.android.systemui",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "com.google.android.gms",
+      "starts": 0,
+      "system_time": 12100,
+      "user_time": 14500,
+      "total": 9164500,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "vendor.qti.hardware.display.composer-service",
+      "starts": 0,
+      "system_time": 20900,
+      "user_time": 5400,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "statsd",
+      "starts": 0,
+      "system_time": 11700,
+      "user_time": 13100,
+      "total": 9164500,
+      "uid": 1066,
+      "uid_info": {
+        "m_uid": 1066,
+        "m_uidName": "1066",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/2",
+      "starts": 0,
+      "system_time": 24400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.android.phone",
+      "starts": 0,
+      "system_time": 8400,
+      "user_time": 15200,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "sscrpcd",
+      "starts": 0,
+      "system_time": 23200,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.whatsapp",
+      "starts": 1,
+      "system_time": 11500,
+      "user_time": 11700,
+      "total": 9164500,
+      "uid": 10221,
+      "uid_info": {
+        "m_uid": 10221,
+        "m_uidName": "WhatsApp",
+        "m_uidNamePackage": "com.whatsapp",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "cpuhp/2",
+      "starts": 0,
+      "system_time": 23000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:6-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 22200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:2-events",
+      "starts": 0,
+      "system_time": 21200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cpuhp/3",
+      "starts": 0,
+      "system_time": 21100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "magiskd",
+      "starts": 0,
+      "system_time": 20200,
+      "user_time": 800,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.gnss@2.1-service-qti",
+      "starts": 0,
+      "system_time": 20400,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1021,
+      "uid_info": {
+        "m_uid": 1021,
+        "m_uidName": "1021",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:6-pm",
+      "starts": 0,
+      "system_time": 19100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "time_daemon",
+      "starts": 0,
+      "system_time": 18200,
+      "user_time": 300,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_commit:197",
+      "starts": 0,
+      "system_time": 18400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u17:1-offload_wq",
+      "starts": 0,
+      "system_time": 17900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_commit:205",
+      "starts": 0,
+      "system_time": 16300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.android.networkstack.process",
+      "starts": 0,
+      "system_time": 9500,
+      "user_time": 6300,
+      "total": 9164500,
+      "uid": 1073,
+      "uid_info": {
+        "m_uid": 1073,
+        "m_uidName": "UID",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qmipriod",
+      "starts": 0,
+      "system_time": 15500,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:7-events",
+      "starts": 0,
+      "system_time": 15000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.kiwibrowser.browser",
+      "starts": 0,
+      "system_time": 9000,
+      "user_time": 5600,
+      "total": 9164500,
+      "uid": 10259,
+      "uid_info": {
+        "m_uid": 10259,
+        "m_uidName": "Kiwi Browser",
+        "m_uidNamePackage": "com.kiwibrowser.browser",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "sensors.qti",
+      "starts": 0,
+      "system_time": 13300,
+      "user_time": 800,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_commit:213",
+      "starts": 0,
+      "system_time": 14100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcu_sched",
+      "starts": 0,
+      "system_time": 14000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "imsrcsd",
+      "starts": 0,
+      "system_time": 13000,
+      "user_time": 600,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/5:1",
+      "starts": 0,
+      "system_time": 13400,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/1",
+      "starts": 0,
+      "system_time": 13500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/4:3-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 13500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ims_rtp_daemon",
+      "starts": 0,
+      "system_time": 12300,
+      "user_time": 700,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/6:0",
+      "starts": 0,
+      "system_time": 12900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.health@2.0-service",
+      "starts": 0,
+      "system_time": 11200,
+      "user_time": 1500,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_commit:221",
+      "starts": 0,
+      "system_time": 12600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_commit:229",
+      "starts": 0,
+      "system_time": 12600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "pp_event",
+      "starts": 0,
+      "system_time": 12500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:4-mm_percpu_wq",
+      "starts": 0,
+      "system_time": 12500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "adsprpcd",
+      "starts": 0,
+      "system_time": 12300,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "port-bridge",
+      "starts": 0,
+      "system_time": 11800,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.kiwibrowser.browser:privileged_process0",
+      "starts": 0,
+      "system_time": 7200,
+      "user_time": 4700,
+      "total": 9164500,
+      "uid": 10259,
+      "uid_info": {
+        "m_uid": 10259,
+        "m_uidName": "Kiwi Browser",
+        "m_uidNamePackage": "com.kiwibrowser.browser",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "crtc_event:229",
+      "starts": 0,
+      "system_time": 11900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "irq/17-9091000.",
+      "starts": 0,
+      "system_time": 11800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.sensors@2.0-service.multihal",
+      "starts": 0,
+      "system_time": 10700,
+      "user_time": 1100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_event:213",
+      "starts": 0,
+      "system_time": 11800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cdsprpcd",
+      "starts": 0,
+      "system_time": 11500,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.asksven.betterbatterystats",
+      "starts": 0,
+      "system_time": 9100,
+      "user_time": 2500,
+      "total": 9164500,
+      "uid": 10262,
+      "uid_info": {
+        "m_uid": 10262,
+        "m_uidName": "BBS",
+        "m_uidNamePackage": "com.asksven.betterbatterystats",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "vppservice",
+      "starts": 0,
+      "system_time": 11300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1013,
+      "uid_info": {
+        "m_uid": 1013,
+        "m_uidName": "1013",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:4",
+      "starts": 0,
+      "system_time": 11000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_event:221",
+      "starts": 0,
+      "system_time": 10900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_event:205",
+      "starts": 0,
+      "system_time": 10900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.kiwibrowser.browser:sandboxed_process1:org.chromium.content.app.SandboxedProcessService1",
+      "starts": 0,
+      "system_time": 5800,
+      "user_time": 5100,
+      "total": 9164500,
+      "uid": 10259,
+      "uid_info": {
+        "m_uid": 10259,
+        "m_uidName": "Kiwi Browser",
+        "m_uidNamePackage": "com.kiwibrowser.browser",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "dpmQmiMgr",
+      "starts": 0,
+      "system_time": 10800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/7:3-events",
+      "starts": 0,
+      "system_time": 10700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cnss-daemon",
+      "starts": 0,
+      "system_time": 10500,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ipacm",
+      "starts": 0,
+      "system_time": 8600,
+      "user_time": 2000,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/0",
+      "starts": 0,
+      "system_time": 10200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/1",
+      "starts": 0,
+      "system_time": 9800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/4",
+      "starts": 0,
+      "system_time": 9700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/6",
+      "starts": 0,
+      "system_time": 9700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "adsprpcd",
+      "starts": 0,
+      "system_time": 9200,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1013,
+      "uid_info": {
+        "m_uid": 1013,
+        "m_uidName": "1013",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.biometrics.fingerprint@2.1-service.oneplus_kona",
+      "starts": 0,
+      "system_time": 9200,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "xtra-daemon",
+      "starts": 0,
+      "system_time": 9100,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1021,
+      "uid_info": {
+        "m_uid": 1021,
+        "m_uidName": "1021",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/3",
+      "starts": 0,
+      "system_time": 9200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qti",
+      "starts": 0,
+      "system_time": 8400,
+      "user_time": 700,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/2",
+      "starts": 0,
+      "system_time": 9000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "servicemanager",
+      "starts": 0,
+      "system_time": 2500,
+      "user_time": 6200,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "vold",
+      "starts": 0,
+      "system_time": 5400,
+      "user_time": 3300,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/3",
+      "starts": 0,
+      "system_time": 8600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_event:197",
+      "starts": 0,
+      "system_time": 8600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u17:0",
+      "starts": 0,
+      "system_time": 8300,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qrtr_rx",
+      "starts": 0,
+      "system_time": 7800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:3-sock_diag_events",
+      "starts": 0,
+      "system_time": 7700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "crtc_event:144",
+      "starts": 0,
+      "system_time": 7600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "mlid",
+      "starts": 0,
+      "system_time": 7500,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1021,
+      "uid_info": {
+        "m_uid": 1021,
+        "m_uidName": "1021",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "iptables-restore",
+      "starts": 0,
+      "system_time": 5400,
+      "user_time": 2100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "imsqmidaemon",
+      "starts": 0,
+      "system_time": 6600,
+      "user_time": 500,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ATFWD-daemon",
+      "starts": 0,
+      "system_time": 6800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "core_ctl/4",
+      "starts": 0,
+      "system_time": 6700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "tri-state-key_daemon",
+      "starts": 0,
+      "system_time": 5000,
+      "user_time": 1600,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/2",
+      "starts": 0,
+      "system_time": 6300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "hwservicemanager",
+      "starts": 0,
+      "system_time": 300,
+      "user_time": 6000,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ip6tables-restore",
+      "starts": 0,
+      "system_time": 4400,
+      "user_time": 1900,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:6",
+      "starts": 0,
+      "system_time": 6300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "surfaceflinger",
+      "starts": 0,
+      "system_time": 5600,
+      "user_time": 500,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "tftp_server",
+      "starts": 0,
+      "system_time": 6000,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 2903,
+      "uid_info": {
+        "m_uid": 2903,
+        "m_uidName": "2903",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:5-mm_percpu_wq",
+      "starts": 0,
+      "system_time": 6100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "zygote64",
+      "starts": 0,
+      "system_time": 5600,
+      "user_time": 300,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.audio.service",
+      "starts": 0,
+      "system_time": 5200,
+      "user_time": 600,
+      "total": 9164500,
+      "uid": 1041,
+      "uid_info": {
+        "m_uid": 1041,
+        "m_uidName": "1041",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/7:2-pm",
+      "starts": 0,
+      "system_time": 5300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "traced",
+      "starts": 0,
+      "system_time": 4700,
+      "user_time": 400,
+      "total": 9164500,
+      "uid": 9999,
+      "uid_info": {
+        "m_uid": 9999,
+        "m_uidName": "9999",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "init",
+      "starts": 0,
+      "system_time": 4800,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "adbd",
+      "starts": 0,
+      "system_time": 4700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 2000,
+      "uid_info": {
+        "m_uid": 2000,
+        "m_uidName": "Shell",
+        "m_uidNamePackage": "com.android.shell",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "traced_probes",
+      "starts": 0,
+      "system_time": 4200,
+      "user_time": 300,
+      "total": 9164500,
+      "uid": 9999,
+      "uid_info": {
+        "m_uid": 9999,
+        "m_uidName": "9999",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "core_ctl/7",
+      "starts": 0,
+      "system_time": 4400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "vl53l1_daemon_main",
+      "starts": 0,
+      "system_time": 4400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ssgqmigd",
+      "starts": 0,
+      "system_time": 4300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1001,
+      "uid_info": {
+        "m_uid": 1001,
+        "m_uidName": "Phone Services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "org.telegram.messenger",
+      "starts": 0,
+      "system_time": 3200,
+      "user_time": 1100,
+      "total": 9164500,
+      "uid": 10224,
+      "uid_info": {
+        "m_uid": 10224,
+        "m_uidName": "Telegram",
+        "m_uidNamePackage": "org.telegram.messenger",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "zygote",
+      "starts": 0,
+      "system_time": 4100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ks",
+      "starts": 0,
+      "system_time": 4000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "dashd",
+      "starts": 0,
+      "system_time": 3800,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "pm-service",
+      "starts": 0,
+      "system_time": 3800,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qrtr-ns",
+      "starts": 0,
+      "system_time": 3700,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 2906,
+      "uid_info": {
+        "m_uid": 2906,
+        "m_uidName": "2906",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/1",
+      "starts": 0,
+      "system_time": 3700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "mdm_helper",
+      "starts": 0,
+      "system_time": 3500,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "pd-mapper",
+      "starts": 0,
+      "system_time": 3600,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/5",
+      "starts": 0,
+      "system_time": 3600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "wlchgd",
+      "starts": 0,
+      "system_time": 3600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "feature_enabler_client",
+      "starts": 0,
+      "system_time": 3600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "dpmd",
+      "starts": 0,
+      "system_time": 3300,
+      "user_time": 300,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "iorapd",
+      "starts": 0,
+      "system_time": 3100,
+      "user_time": 400,
+      "total": 9164500,
+      "uid": 1071,
+      "uid_info": {
+        "m_uid": 1071,
+        "m_uidName": "1071",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "loc_launcher",
+      "starts": 0,
+      "system_time": 3400,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1021,
+      "uid_info": {
+        "m_uid": 1021,
+        "m_uidName": "1021",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qseecom-unload-",
+      "starts": 0,
+      "system_time": 3500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.discord",
+      "starts": 1,
+      "system_time": 600,
+      "user_time": 2900,
+      "total": 9164500,
+      "uid": 10222,
+      "uid_info": {
+        "m_uid": 10222,
+        "m_uidName": "Discord",
+        "m_uidNamePackage": "com.discord",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "rcuos/3",
+      "starts": 0,
+      "system_time": 3300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "lowi-server",
+      "starts": 0,
+      "system_time": 3100,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1021,
+      "uid_info": {
+        "m_uid": 1021,
+        "m_uidName": "1021",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.google.android.deskclock",
+      "starts": 2,
+      "system_time": 0,
+      "user_time": 3300,
+      "total": 9164500,
+      "uid": 10168,
+      "uid_info": {
+        "m_uid": 10168,
+        "m_uidName": "Clock",
+        "m_uidNamePackage": "com.google.android.deskclock",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "dpmd",
+      "starts": 0,
+      "system_time": 2800,
+      "user_time": 400,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/4",
+      "starts": 0,
+      "system_time": 3000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/6",
+      "starts": 0,
+      "system_time": 3000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kauditd",
+      "starts": 0,
+      "system_time": 2900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.teslacoilsw.launcher",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 2200,
+      "total": 9164500,
+      "uid": 10246,
+      "uid_info": {
+        "m_uid": 10246,
+        "m_uidName": "Nova7",
+        "m_uidNamePackage": "com.teslacoilsw.launcher",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "iorap.prefetcherd",
+      "starts": 0,
+      "system_time": 2600,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1071,
+      "uid_info": {
+        "m_uid": 1071,
+        "m_uidName": "1071",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "f2fs_discard-25",
+      "starts": 0,
+      "system_time": 2500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "webview_zygote",
+      "starts": 0,
+      "system_time": 2300,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1053,
+      "uid_info": {
+        "m_uid": 1053,
+        "m_uidName": "1053",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kcompactd0",
+      "starts": 0,
+      "system_time": 2500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kswapd-1:0",
+      "starts": 0,
+      "system_time": 2400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:5-mm_percpu_wq",
+      "starts": 0,
+      "system_time": 2400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "jbd2/sda9-8",
+      "starts": 0,
+      "system_time": 2400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "jbd2/sda2-8",
+      "starts": 0,
+      "system_time": 2300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "jbd2/sde9-8",
+      "starts": 0,
+      "system_time": 2300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "jbd2/sda19-8",
+      "starts": 0,
+      "system_time": 2300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:0",
+      "starts": 0,
+      "system_time": 2200,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "f2fs_gc-252:10",
+      "starts": 0,
+      "system_time": 2200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.google.android.gms.unstable",
+      "starts": 1,
+      "system_time": 900,
+      "user_time": 1000,
+      "total": 9164500,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "sh",
+      "starts": 0,
+      "system_time": 1800,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 10262,
+      "uid_info": {
+        "m_uid": 10262,
+        "m_uidName": "BBS",
+        "m_uidNamePackage": "com.asksven.betterbatterystats",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "com.google.android.googlequicksearchbox:search",
+      "starts": 0,
+      "system_time": 800,
+      "user_time": 900,
+      "total": 9164500,
+      "uid": 10130,
+      "uid_info": {
+        "m_uid": 10130,
+        "m_uidName": "Google",
+        "m_uidNamePackage": "com.google.android.googlequicksearchbox",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "com.android.vending",
+      "starts": 0,
+      "system_time": 300,
+      "user_time": 1400,
+      "total": 9164500,
+      "uid": 10151,
+      "uid_info": {
+        "m_uid": 10151,
+        "m_uidName": "Google Play Store",
+        "m_uidNamePackage": "com.android.vending",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "kworker/1:2-events",
+      "starts": 0,
+      "system_time": 1700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "vndservicemanager",
+      "starts": 0,
+      "system_time": 700,
+      "user_time": 1000,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ecryptfs-kthrea",
+      "starts": 0,
+      "system_time": 1700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/6:2",
+      "starts": 0,
+      "system_time": 1400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:4-pm",
+      "starts": 0,
+      "system_time": 1400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kgsl_worker_thr",
+      "starts": 0,
+      "system_time": 1300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "lmkd",
+      "starts": 0,
+      "system_time": 1100,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1069,
+      "uid_info": {
+        "m_uid": 1069,
+        "m_uidName": "1069",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuop/7",
+      "starts": 0,
+      "system_time": 1300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:0H-kblockd",
+      "starts": 0,
+      "system_time": 1300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/u17:4-kgsl-events",
+      "starts": 0,
+      "system_time": 1200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.memtrack@1.0-service",
+      "starts": 0,
+      "system_time": 800,
+      "user_time": 400,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "storaged",
+      "starts": 0,
+      "system_time": 700,
+      "user_time": 400,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:0-events",
+      "starts": 0,
+      "system_time": 1100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:0H",
+      "starts": 0,
+      "system_time": 1100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:1H-events_highpri",
+      "starts": 0,
+      "system_time": 1000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/7",
+      "starts": 0,
+      "system_time": 1000,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "org.codeaurora.ims",
+      "starts": 0,
+      "system_time": 400,
+      "user_time": 500,
+      "total": 9164500,
+      "uid": 10188,
+      "uid_info": {
+        "m_uid": 10188,
+        "m_uidName": "org.codeaurora.ims",
+        "m_uidNamePackage": "org.codeaurora.ims",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "kworker/3:3",
+      "starts": 0,
+      "system_time": 900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:4",
+      "starts": 0,
+      "system_time": 900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "rcuos/5",
+      "starts": 0,
+      "system_time": 900,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:1-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/7",
+      "starts": 0,
+      "system_time": 800,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "msm_watchdog",
+      "starts": 0,
+      "system_time": 700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:0H-events_highpri",
+      "starts": 0,
+      "system_time": 700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:2H-kblockd",
+      "starts": 0,
+      "system_time": 700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:2H",
+      "starts": 0,
+      "system_time": 700,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:2-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/6:1",
+      "starts": 0,
+      "system_time": 600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/6",
+      "starts": 0,
+      "system_time": 600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:1",
+      "starts": 0,
+      "system_time": 600,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/1:5-events",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:0-rmnet_shs_wq",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/3:1-mm_percpu_wq",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "ksoftirqd/4",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.android.providers.calendar",
+      "starts": 1,
+      "system_time": 100,
+      "user_time": 400,
+      "total": 9164500,
+      "uid": 10090,
+      "uid_info": {
+        "m_uid": 10090,
+        "m_uidName": "Calendar Storage",
+        "m_uidNamePackage": "com.android.providers.calendar",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "ksoftirqd/5",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/0:1H-kblockd",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/5:1H-kblockd",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/6:1H-kblockd",
+      "starts": 0,
+      "system_time": 500,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "audioserver",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 1041,
+      "uid_info": {
+        "m_uid": 1041,
+        "m_uidName": "1041",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.google.process.gservices",
+      "starts": 1,
+      "system_time": 100,
+      "user_time": 300,
+      "total": 9164500,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:2",
+      "starts": 0,
+      "system_time": 400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/7:1H-kblockd",
+      "starts": 0,
+      "system_time": 400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/4:1H-kblockd",
+      "starts": 0,
+      "system_time": 400,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/5:0",
+      "starts": 0,
+      "system_time": 300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "cameraserver",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1047,
+      "uid_info": {
+        "m_uid": 1047,
+        "m_uidName": "1047",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/2:3-pm",
+      "starts": 0,
+      "system_time": 300,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.google.android.apps.nexuslauncher",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 10191,
+      "uid_info": {
+        "m_uid": 10191,
+        "m_uidName": "Pixel Launcher",
+        "m_uidNamePackage": "com.google.android.apps.nexuslauncher",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "com.google.android.inputmethod.latin",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 10165,
+      "uid_info": {
+        "m_uid": 10165,
+        "m_uidName": "Gboard",
+        "m_uidNamePackage": "com.google.android.inputmethod.latin",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "system",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/7:0-events",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.process.acore",
+      "starts": 1,
+      "system_time": 0,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 10085,
+      "uid_info": {
+        "m_uid": 10085,
+        "m_uidName": "Android Core Apps",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/5:2",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/4:2-mm_percpu_wq",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/4:0-pm",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.ext.services",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 10205,
+      "uid_info": {
+        "m_uid": 10205,
+        "m_uidName": "Android Services Library",
+        "m_uidNamePackage": "android.ext.services",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "com.google.process.gapps",
+      "starts": 1,
+      "system_time": 0,
+      "user_time": 200,
+      "total": 9164500,
+      "uid": 10131,
+      "uid_info": {
+        "m_uid": 10131,
+        "m_uidName": "Google Play services",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/6:0H-events_highpri",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/5:0H-events_highpri",
+      "starts": 0,
+      "system_time": 200,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "kworker/4:0H-events_highpri",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "qmp_aop",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "android.hardware.keymaster@4.0-service-qti",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "vendor.qti.hardware.display.allocator-service",
+      "starts": 0,
+      "system_time": 0,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1000,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.android.nfc",
+      "starts": 0,
+      "system_time": 0,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 1027,
+      "uid_info": {
+        "m_uid": 1027,
+        "m_uidName": "Nfc Service",
+        "m_uidNamePackage": "com.android.nfc",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "irq/447-dma-gra",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "keystore",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 1017,
+      "uid_info": {
+        "m_uid": 1017,
+        "m_uidName": "1017",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "name": "com.google.android.googlequicksearchbox:interactor",
+      "starts": 0,
+      "system_time": 0,
+      "user_time": 100,
+      "total": 9164500,
+      "uid": 10130,
+      "uid_info": {
+        "m_uid": 10130,
+        "m_uidName": "Google",
+        "m_uidNamePackage": "com.google.android.googlequicksearchbox",
+        "m_uidUniqueName": true
+      }
+    },
+    {
+      "name": "kthreadd",
+      "starts": 0,
+      "system_time": 100,
+      "user_time": 0,
+      "total": 9164500,
+      "uid": 0,
+      "uid_info": {
+        "m_uid": 0,
+        "m_uidName": "0",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    }
+  ],
+  "readingTimeMs": 1619069414074,
+  "rootPermissions": false,
+  "seLinuxPolicy": "",
+  "sensorUsage": [
+    {
+      "details": "",
+      "items": [
+        {
+          "handle": 272,
+          "time": 12201,
+          "sensor": "device_orient  Wakeup(272), wakeup\u003dtrue"
+        }
+      ],
+      "total_time": -142761,
+      "package_name": "",
+      "total": 0,
+      "uid": -1,
+      "uid_info": {
+        "m_uid": 1000,
+        "m_uidName": "Android System",
+        "m_uidNamePackage": "",
+        "m_uidUniqueName": false
+      }
+    },
+    {
+      "details": "",
+      "items": [
+        {
+          "handle": 82,
+          "time": 0,
+          "sensor": "stk_stk2232 Proximity Sensor Wakeup(82), wakeup\u003dtrue"
+        },
+        {
+          "handle": 91,
+          "time": 0,
+          "sensor": "gravity  Non-wakeup(91), wakeup\u003dfalse"
+        },
+        {
+          "handle": 101,
+          "time": 0,
+          "sensor": "linear_acceleration(101), wakeup\u003dfalse"
+        }
+      ],
+      "total_time": -1939546,
+      "package_name": "",
+      "total": 0,
+      "uid": -1,
+      "uid_info": {
+        "m_uid": 10224,
+        "m_uidName": "Telegram",
+        "m_uidNamePackage": "org.telegram.messenger",
+        "m_uidUniqueName": true
+      }
+    }
+  ],
+  "statType": "Screen Off to Screen On",
+  "totalTime": 27921028
+}
